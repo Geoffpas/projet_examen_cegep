@@ -1,0 +1,109 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;  */
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    font-size: 17px;
+    color: rgb(170, 170, 221);
+}
+
+a:first-child {
+    margin-left: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 58px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 100;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin-left: 0px;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+footer a:first-child {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+input.submit {
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    background-color: rgb(170, 170, 221);
+    margin-top: 10px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    border-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+input.submit:hover {
+    background-color: rgb(182, 123, 255);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+form textarea {
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+form textarea::placeholder {
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
